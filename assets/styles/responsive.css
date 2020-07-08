@@ -1,0 +1,93 @@
+@media screen and (max-width: 1300px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1001px) {
+    .lokasi-umum {
+        padding: 1em 0.5em;
+    }
+    
+    .lokasi-umum img{
+        height: 5em;
+        width: 10em;
+    }
+}
+
+@media screen and (max-width: 801px) {
+    .fasilitas-umum {
+        padding: 1em 0.5em;
+        margin: 0.5em 1em;
+        width: 20%;
+    }
+    
+    .fasilitas-umum img {
+        height: 5em;
+        width: 5em;
+    }
+}
+
+@media screen and (max-width: 677px) {
+    .subkonten-flex {
+        display: block;
+        text-align: center;
+    }
+
+    .lokasi-umum, .fasilitas-umum {
+        /*flex-grow: 1;*/
+        padding: 2em 1em;
+        width: 90%;
+    }
+    
+    .lokasi-umum img{
+        height: 15em;
+        width: 20em;
+    }
+    
+    .fasilitas-umum img {
+        height: 10em;
+        width: 10em;
+    }
+}
+
+@media screen and (max-width: 469px) {
+
+    nav {
+        padding: 2em;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    .home-logo {
+        margin: 0 auto;
+    }
+
+    .menu-icon {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .lokasi-umum, .fasilitas-umum {
+        padding: 1em 0;
+        width: 90%;
+    }
+    
+    .lokasi-umum img{
+        height: 7em;
+        width: 10em;
+    }
+    
+    .fasilitas-umum img {
+        height: 5em;
+        width: 5em;
+    }
+
+    .email-form, textarea {
+        width: 100%;
+    }
+}
